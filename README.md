@@ -43,7 +43,7 @@ The dataset used is a CSV file (electronics.csv) containing information about el
 
 Ensure the dataset is located in the same directory as the notebook or update the file path accordingly.
 
-Example Code:
+
 
 # Importing the dataset
 
@@ -62,7 +62,6 @@ Feature Engineering: Extracting relevant features such as year or category.
 
 Data Formatting: Standardizing column names and types.
 
-Example Code:
 
 # Check for missing values
 dataset.isnull().sum()
@@ -80,7 +79,6 @@ Most popular product categories.
 
 Seasonal trends in sales.
 
-Example Code:
 
 # Visualizing the distribution of ratings
 sns.histplot(dataset['rating'], bins=10, kde=True)
